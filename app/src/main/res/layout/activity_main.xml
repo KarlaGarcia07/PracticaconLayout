@@ -5,42 +5,55 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Aceptar"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="485dp" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:text ="Bienvenidos a mi App"
+        android:background="#1C8F65"
+        android:layout_gravity="left"
+        />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="56dp"
-        tools:srcCompat="@tools:sample/avatars" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center||top"
+        android:background="#1C358F" />
 
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Usuario"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="248dp" />
+    <TextView
+        android:layout_height="170dp"
+        android:layout_width="130dp"
+        android:layout_gravity="right"
+        android:background="#AA6050"
+        />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_gravity="left||center||"
+        android:background="#90E821 "/>
 
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Contraseña"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="349dp" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="#E82144 " />
 
+        />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:text ="Bienvenidos a mi App"
+        android:background="#352225 "
+        android:layout_gravity="right||center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:background="#DA21E8 "
+        />
 </FrameLayout>
